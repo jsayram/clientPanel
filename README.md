@@ -1,11 +1,12 @@
 # ClientPanel
 
 ---
-## Jose Ramirez Dev. Notes:
+## Jose Ramirez Dev Notes:
 
-App Description:<br> 
+App Description:
 Client management application that uses <strong>Firebase</strong> as the back end with the new <i>Firestore</i> database.
 Application has full C.R.U.D functionality with Log In authentication. <br>
+
 ---
 
 ## Tools & Assets:
@@ -16,8 +17,9 @@ Application has full C.R.U.D functionality with Log In authentication. <br>
 ## Components, Modules, & Services added: 
 
 Using `ng g c components/component_name` <br>
+
 | **component_name** | 
-| ------------- |
+| --- |
 | navbar  		|
 | sidebar 		| 
 | dashboard     | 
@@ -30,15 +32,20 @@ Using `ng g c components/component_name` <br>
 | settings 		|
 | not-found 	|
 
+<<<<<<< HEAD
 <strong>Router Module</strong> `ng g m app-routing --flat -module:app`, inside created `app-routing.module.ts` file, imported the routes for the components <br>
 
+=======
+<br>
+>>>>>>> 20c4f0842fa6b8738fdaf3a4e420b100992acae3
 
 ## Additional Dependencies Added:
 
 * <strong>Bootstrap V4</strong> - <strong>jQuery</strong> - <strong>Popper.js</strong> - <strong>Font-Awesome</strong>:<br> `npm install bootstrap@4.0.0-beta.2 jquery popper.js font-awesome` <br>
 
--Note for dependencies above: modify <i><strong>`.angular-cli.json`</strong></i> to add necessary styles and scripts. Then you can use inside your "<i>componentName</i>.component.html" files.  <br>	
-....`"styles": [ 
+-Note for dependencies above: modify <i><strong>`.angular-cli.json`</strong></i> to add necessary styles and scripts. Then you can use inside your "<i>componentName</i>.component.html" files.  <br>
+
+`"styles": [ 
         "styles.css",
         "../node_modules/font-awesome/css/font-awesome.css",
         "../node_modules/bootstrap/dist/css/bootstrap.css"
@@ -47,7 +54,8 @@ Using `ng g c components/component_name` <br>
         "../node_modules/jquery/dist/jquery.js",
         "../node_modules/popper.js/dist/umd/popper.js",
         "../node_modules/bootstrap/dist/js/bootstrap.js"
-      ],`.... <br>
+      ],` 
+      
 ---
 ---
 
