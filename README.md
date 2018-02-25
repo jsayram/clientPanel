@@ -32,7 +32,17 @@ Using `ng g c components/component_name` <br>
 | settings 		|
 | not-found 	|
 
-<strong>Router Module</strong> `ng g m app-routing --flat -module:app`, inside created `app-routing.module.ts` file, imported the routes for the components <br>
+* <strong>Router Module</strong> `ng g m app-routing --flat -module:app`, inside created `app-routing.module.ts` file, imported the routes for the components <br>
+
+* <strong>angularfire2 Module</strong> `npm install firebase angularfire2`<br>
+-Github Documentation for <i>angularfire2</i> setup, and adding firebase config to enviromental variable: [https://github.com/angular/angularfire2](https://github.com/angular/angularfire2)<br>
+(great module for interacting with firebase, allows interaction with realtime database, firestore, authentication etc..) <br>
+
+* <strong>client service module</strong> `ng g s services/client`, added after installing the angularfire2 module , imported necessary angularfirestore imports<br>
+
+* <strong>client interface</strong> created `models` directory with a `Client.ts` file , and there implemented the interface for Client. Imported that interface to the `client.service.ts` file. <br>
+
+Other notes: imported the Observable from the rxjs library in the 'client.services.ts' file 
 
 ## Additional Dependencies Added:
 
