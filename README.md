@@ -13,7 +13,7 @@ Application has full C.R.U.D functionality with Log In authentication. <br>
 * Chrome extension: <i><strong> Augury</strong></i> <br> 
 -(For debugging and visualizing angular applications at runtime) <br>
 
-## Components Manually added: 
+## Components, Modules, & Services added: 
 
 Using `ng g c components/component_name` <br>
 | **component_name** | 
@@ -29,7 +29,9 @@ Using `ng g c components/component_name` <br>
 | register 		|
 | settings 		|
 | not-found 	|
-<br>
+
+<strong>Router Module</strong> `ng g m app-routing --flat -module:app`, inside created `app-routing.module.ts` file, imported the routes for the components <br>
+
 
 ## Additional Dependencies Added:
 
