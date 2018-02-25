@@ -15,7 +15,6 @@ export class ClientService {
   constructor(private afs: AngularFirestore) { 
   		this.clientCollection = this.afs.collection('client', ref => ref.orderBy('lastName', 'asc'));
   }
-
   getClients(): Observable<Client[]> {
   	//get clients with the id
   	this.clients = this.clientCollection.snapshotChanges().map(changes => {
@@ -27,5 +26,4 @@ export class ClientService {
   	});
   	return this.clients;
   }
-
 }
