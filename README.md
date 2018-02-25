@@ -32,12 +32,7 @@ Using `ng g c components/component_name` <br>
 | settings 		|
 | not-found 	|
 
-<<<<<<< HEAD
 <strong>Router Module</strong> `ng g m app-routing --flat -module:app`, inside created `app-routing.module.ts` file, imported the routes for the components <br>
-
-=======
-<br>
->>>>>>> 20c4f0842fa6b8738fdaf3a4e420b100992acae3
 
 ## Additional Dependencies Added:
 
