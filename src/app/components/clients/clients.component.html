@@ -3,11 +3,11 @@
 		<h2><i class="fa fa-users"></i> Client</h2>
 	</div>
 	<div class="col-md-6">
-		<h5 class="text-rigth text-secondary">Total Owed: {{totalOwed | currency:"USD":"symbol"}}</h5>
+		<h5 class="text-right text-secondary">Total Owed: {{totalOwed | currency:"USD":"symbol"}}</h5>
 	</div>
 </div>
 
-<table *ngIf="clients?.length > 0;else noClients" class="table table-striped">
+<table *ngIf="clients?.length > 0;else noClients" class="table table-striped table-responsive">
 	<thead class="thead-inverse">
 		<tr>
 			<th>Name</th>
