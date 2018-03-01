@@ -4,7 +4,7 @@ import { ClientService } from '../../services/client.service';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { FlashMessagesService} from 'angular2-flash-messages';
 import { Client } from '../../models/Client';
-import {  } from 'angular2-flash-messages/module/module';
+
 
 
 
