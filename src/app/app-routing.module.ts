@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router'
 
-
 //manual components imports
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { LoginComponent } from './components/login/login.component';
