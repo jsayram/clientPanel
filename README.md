@@ -86,6 +86,9 @@ Other notes: imported the Observable from the rxjs library in the 'client.servic
 login: jose@gmail.com <br>
 password: 123456 <br>
 **feel free to play around with it, just use above login**
+
+you can <strong>C</strong>reate, <strong>R</strong>emove, <strong>U</strong>pdate client information and balance, or <strong>D</strong>elete clients.
+
 ---
 ## END of Jose Ramirez Dev Notes
 ---
