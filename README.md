@@ -53,6 +53,7 @@ Using `ng g c components/component_name` <br>
 
 * <strong>settings interface</strong> created inside `models` directory with a `Settings.ts` file , and there implemented the interface for Settings. Imported that interface to the `Settings.service.ts` file. <br>
 
+* <strong>Authentication Guard for Register</strong> created in `guards` directory with a `register.guards.ts` file name , and there implemented the injectable for the RegisterGuard. imported to the `app-routing.module.ts` file as a provider and added the `canActivate:[RegisterGuard]` to the register route.<br>
 
 Other notes: imported the Observable from the rxjs library in the 'client.services.ts' file 
 
@@ -74,6 +75,7 @@ Other notes: imported the Observable from the rxjs library in the 'client.servic
       ],` 
       
 ---
+## END of Jose Ramirez Dev Notes
 ---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
