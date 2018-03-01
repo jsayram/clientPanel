@@ -73,7 +73,19 @@ Other notes: imported the Observable from the rxjs library in the 'client.servic
         "../node_modules/popper.js/dist/umd/popper.js",
         "../node_modules/bootstrap/dist/js/bootstrap.js"
       ],` 
-      
+
+## Deploying to firebase for hosting
+
+* <strong>firbase tool</strong> `npm install -g firebase-tools`<br>
+-then `firebase login` `firebase init` `firebase deploy` <br>
+-steps found in firebase hosting<br>
+---
+
+## [Click Here for live "Client Panel" Project hosted on firebase](https://clientpanelprod-8ad1d.firebaseapp.com/)
+
+login: jose@gmail.com <br>
+password: 123456 <br>
+**feel free to play around with it, just use above login**
 ---
 ## END of Jose Ramirez Dev Notes
 ---
