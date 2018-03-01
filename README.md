@@ -49,6 +49,10 @@ Using `ng g c components/component_name` <br>
 
 * <strong>Authentication Guard for Routes</strong> created `guards` directory with a `auth.guards.ts` file , and there implemented the injectable for the AuthGuard. imported to the `app-routing.module.ts` file as a provider and added the `canActivate:[AuthGuard]` to each of the routes wanting to protect.<br>
 
+* <strong>settings service module</strong> `ng g s services/settings -module:app`, this will also import all necessary depedencies to the `app.module.ts` file<br>
+
+* <strong>settings interface</strong> created inside `models` directory with a `Settings.ts` file , and there implemented the interface for Settings. Imported that interface to the `Settings.service.ts` file. <br>
+
 
 Other notes: imported the Observable from the rxjs library in the 'client.services.ts' file 
 
