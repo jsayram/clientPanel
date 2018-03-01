@@ -5,10 +5,9 @@
 
 App Description:
 Client management application that uses <strong>Firebase</strong> as the back end with the new <i>Firestore</i> database.
-Application has full C.R.U.D functionality with Log In authentication. <br>
+Application has full C.R.U.D functionality with Log In authentication. From the Udemy Course [Angular Front to Back]<br>
 
 ---
-
 ## Tools & Assets:
 
 * Chrome extension: <i><strong> Augury</strong></i> <br> 
@@ -118,3 +117,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
